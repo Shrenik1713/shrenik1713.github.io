@@ -1,90 +1,574 @@
-<section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title animate-in">Featured Projects</h2>
-            <div class="projects-filter">
-                <button class="filter-btn active" data-filter="all" fdprocessedid="hacz02j">All Projects</button>
-                <button class="filter-btn" data-filter="featured" fdprocessedid="cu89hh">Featured</button>
-                <button class="filter-btn" data-filter="web" fdprocessedid="urx9ce">Web Apps</button>
-                <button class="filter-btn" data-filter="ai" fdprocessedid="twj23p">AI/ML</button>
-            </div>
-            <div class="projects-grid" id="projects-grid"><div class="project-card project-ai featured animate-in" style="display: block; animation: 0.3s ease-out 0s 1 normal none running fadeIn;">
-            <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&amp;h=400&amp;fit=crop" alt="AI-Powered Task Manager" class="project-image" loading="lazy">
-            <div class="project-content">
-                <h3 class="project-title">AI-Powered Task Manager</h3>
-                <p class="project-description">Intelligent task management application using machine learning to predict task priorities and optimize scheduling. Features smart categorization and deadline prediction.</p>
-                <div class="project-tech">
-                    <span class="tech-tag">Python</span><span class="tech-tag">TensorFlow</span><span class="tech-tag">React</span><span class="tech-tag">Node.js</span><span class="tech-tag">MongoDB</span>
-                </div>
-                <div class="project-links">
-                    <a href="#" class="project-link project-link--primary" target="_blank">Live Demo</a>
-                    <a href="#" class="project-link project-link--secondary" target="_blank">GitHub</a>
-                </div>
-            </div>
-        </div><div class="project-card project-web featured animate-in" style="display: block; animation: 0.3s ease-out 0s 1 normal none running fadeIn;">
-            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&amp;h=400&amp;fit=crop" alt="E-Commerce Platform" class="project-image" loading="lazy">
-            <div class="project-content">
-                <h3 class="project-title">E-Commerce Platform</h3>
-                <p class="project-description">Full-stack e-commerce solution with user authentication, payment integration, and admin dashboard. Responsive design with modern UI/UX principles.</p>
-                <div class="project-tech">
-                    <span class="tech-tag">React</span><span class="tech-tag">Node.js</span><span class="tech-tag">Express</span><span class="tech-tag">MySQL</span><span class="tech-tag">Stripe API</span>
-                </div>
-                <div class="project-links">
-                    <a href="#" class="project-link project-link--primary" target="_blank">Live Demo</a>
-                    <a href="#" class="project-link project-link--secondary" target="_blank">GitHub</a>
-                </div>
-            </div>
-        </div><div class="project-card project-ai animate-in" style="display: block; animation: 0.3s ease-out 0s 1 normal none running fadeIn;">
-            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&amp;h=400&amp;fit=crop" alt="Social Media Analytics" class="project-image" loading="lazy">
-            <div class="project-content">
-                <h3 class="project-title">Social Media Analytics</h3>
-                <p class="project-description">Data visualization dashboard for social media metrics with real-time updates and predictive analytics for engagement optimization.</p>
-                <div class="project-tech">
-                    <span class="tech-tag">Python</span><span class="tech-tag">Flask</span><span class="tech-tag">D3.js</span><span class="tech-tag">PostgreSQL</span><span class="tech-tag">Redis</span>
-                </div>
-                <div class="project-links">
-                    <a href="#" class="project-link project-link--primary" target="_blank">Live Demo</a>
-                    <a href="#" class="project-link project-link--secondary" target="_blank">GitHub</a>
-                </div>
-            </div>
-        </div><div class="project-card project-web animate-in" style="display: block; animation: 0.3s ease-out 0s 1 normal none running fadeIn;">
-            <img src="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&amp;h=400&amp;fit=crop" alt="Mobile Weather App" class="project-image" loading="lazy">
-            <div class="project-content">
-                <h3 class="project-title">Mobile Weather App</h3>
-                <p class="project-description">Cross-platform mobile application providing detailed weather forecasts with location-based services and interactive maps.</p>
-                <div class="project-tech">
-                    <span class="tech-tag">React Native</span><span class="tech-tag">JavaScript</span><span class="tech-tag">Weather API</span><span class="tech-tag">Maps API</span>
-                </div>
-                <div class="project-links">
-                    <a href="#" class="project-link project-link--primary" target="_blank">Live Demo</a>
-                    <a href="#" class="project-link project-link--secondary" target="_blank">GitHub</a>
-                </div>
-            </div>
-        </div><div class="project-card project-web featured animate-in" style="display: block; animation: 0.3s ease-out 0s 1 normal none running fadeIn;">
-            <img src="https://images.unsplash.com/photo-1559526324-593bc073d938?w=600&amp;h=400&amp;fit=crop" alt="Blockchain Voting System" class="project-image" loading="lazy">
-            <div class="project-content">
-                <h3 class="project-title">Blockchain Voting System</h3>
-                <p class="project-description">Secure digital voting platform using blockchain technology to ensure transparency and prevent fraud in electoral processes.</p>
-                <div class="project-tech">
-                    <span class="tech-tag">Solidity</span><span class="tech-tag">Web3.js</span><span class="tech-tag">React</span><span class="tech-tag">Ethereum</span><span class="tech-tag">IPFS</span>
-                </div>
-                <div class="project-links">
-                    <a href="#" class="project-link project-link--primary" target="_blank">Live Demo</a>
-                    <a href="#" class="project-link project-link--secondary" target="_blank">GitHub</a>
-                </div>
-            </div>
-        </div><div class="project-card project-ai animate-in" style="display: block; animation: 0.3s ease-out 0s 1 normal none running fadeIn;">
-            <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=600&amp;h=400&amp;fit=crop" alt="IoT Smart Home System" class="project-image" loading="lazy">
-            <div class="project-content">
-                <h3 class="project-title">IoT Smart Home System</h3>
-                <p class="project-description">Integrated IoT solution for home automation with sensor monitoring, mobile app control, and energy optimization features.</p>
-                <div class="project-tech">
-                    <span class="tech-tag">Arduino</span><span class="tech-tag">Raspberry Pi</span><span class="tech-tag">Python</span><span class="tech-tag">React Native</span><span class="tech-tag">MQTT</span>
-                </div>
-                <div class="project-links">
-                    <a href="#" class="project-link project-link--primary" target="_blank">Live Demo</a>
-                    <a href="#" class="project-link project-link--secondary" target="_blank">GitHub</a>
-                </div>
-            </div>
-        </div></div>
+// Portfolio Data
+const portfolioData = {
+  "personalInfo": {
+    "name": "Your Name",
+    "tagline": "Computer Science Student",
+    "subtitle": "AI & ML Enthusiast | Full-Stack Developer",
+    "bio": "Passionate Computer Science student graduating in 2025, specializing in Artificial Intelligence and Machine Learning. Experienced in building scalable web applications and exploring cutting-edge technologies. Always eager to learn, collaborate, and contribute to meaningful projects that solve real-world problems.",
+    "email": "your.email@example.com",
+    "phone": "+1 (555) 123-4567",
+    "location": "Your City, Country"
+  },
+  "skills": [
+    { "name": "Python", "level": 90, "category": "programming" },
+    { "name": "JavaScript", "level": 85, "category": "programming" },
+    { "name": "Java", "level": 80, "category": "programming" },
+    { "name": "C++", "level": 75, "category": "programming" },
+    { "name": "React.js", "level": 85, "category": "frontend" },
+    { "name": "Angular", "level": 80, "category": "frontend" },
+    { "name": "HTML/CSS", "level": 90, "category": "frontend" },
+    { "name": "Node.js", "level": 80, "category": "backend" },
+    { "name": "Express.js", "level": 75, "category": "backend" },
+    { "name": "MongoDB", "level": 70, "category": "database" },
+    { "name": "MySQL", "level": 75, "category": "database" },
+    { "name": "Git/GitHub", "level": 85, "category": "tools" },
+    { "name": "Machine Learning", "level": 80, "category": "ai" },
+    { "name": "TensorFlow", "level": 75, "category": "ai" },
+    { "name": "Data Analysis", "level": 80, "category": "ai" }
+  ],
+  "projects": [
+    {
+      "title": "AI-Powered Task Manager",
+      "description": "Intelligent task management application using machine learning to predict task priorities and optimize scheduling. Features smart categorization and deadline prediction.",
+      "technologies": ["Python", "TensorFlow", "React", "Node.js", "MongoDB"],
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
+      "liveDemo": "#",
+      "github": "#",
+      "featured": true,
+      "category": "ai"
+    },
+    {
+      "title": "E-Commerce Platform",
+      "description": "Full-stack e-commerce solution with user authentication, payment integration, and admin dashboard. Responsive design with modern UI/UX principles.",
+      "technologies": ["React", "Node.js", "Express", "MySQL", "Stripe API"],
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
+      "liveDemo": "#",
+      "github": "#",
+      "featured": true,
+      "category": "web"
+    },
+    {
+      "title": "Social Media Analytics",
+      "description": "Data visualization dashboard for social media metrics with real-time updates and predictive analytics for engagement optimization.",
+      "technologies": ["Python", "Flask", "D3.js", "PostgreSQL", "Redis"],
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
+      "liveDemo": "#",
+      "github": "#",
+      "featured": false,
+      "category": "ai"
+    },
+    {
+      "title": "Mobile Weather App",
+      "description": "Cross-platform mobile application providing detailed weather forecasts with location-based services and interactive maps.",
+      "technologies": ["React Native", "JavaScript", "Weather API", "Maps API"],
+      "image": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
+      "liveDemo": "#",
+      "github": "#",
+      "featured": false,
+      "category": "web"
+    },
+    {
+      "title": "Blockchain Voting System",
+      "description": "Secure digital voting platform using blockchain technology to ensure transparency and prevent fraud in electoral processes.",
+      "technologies": ["Solidity", "Web3.js", "React", "Ethereum", "IPFS"],
+      "image": "https://images.unsplash.com/photo-1559526324-593bc073d938?w=600&h=400&fit=crop",
+      "liveDemo": "#",
+      "github": "#",
+      "featured": true,
+      "category": "web"
+    },
+    {
+      "title": "IoT Smart Home System",
+      "description": "Integrated IoT solution for home automation with sensor monitoring, mobile app control, and energy optimization features.",
+      "technologies": ["Arduino", "Raspberry Pi", "Python", "React Native", "MQTT"],
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=600&h=400&fit=crop",
+      "liveDemo": "#",
+      "github": "#",
+      "featured": false,
+      "category": "ai"
+    }
+  ]
+};
+
+// DOM Elements
+const mobileMenu = document.getElementById('mobile-menu');
+const navMenu = document.getElementById('nav-menu');
+const themeToggle = document.getElementById('theme-toggle');
+const navbar = document.getElementById('navbar');
+const loadingScreen = document.getElementById('loading-screen');
+const contactForm = document.getElementById('contact-form');
+const skillsGrid = document.getElementById('skills-grid');
+const projectsGrid = document.getElementById('projects-grid');
+
+// State
+let currentTheme = 'light';
+let isMenuOpen = false;
+
+// Initialize the application
+document.addEventListener('DOMContentLoaded', function() {
+    initializeApp();
+});
+
+function initializeApp() {
+    // Hide loading screen
+    setTimeout(() => {
+        loadingScreen.classList.add('hidden');
+    }, 1000);
+
+    // Initialize theme
+    initializeTheme();
+    
+    // Setup event listeners
+    setupEventListeners();
+    
+    // Populate dynamic content
+    populateSkills();
+    populateProjects();
+    
+    // Initialize scroll effects
+    handleScroll();
+    
+    // Setup intersection observer for animations
+    setupIntersectionObserver();
+}
+
+function initializeTheme() {
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+        currentTheme = savedTheme;
+        document.documentElement.setAttribute('data-color-scheme', currentTheme);
+        updateThemeToggle();
+    } else {
+        // Check system preference
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            currentTheme = 'dark';
+            document.documentElement.setAttribute('data-color-scheme', 'dark');
+            updateThemeToggle();
+        }
+    }
+}
+
+function updateThemeToggle() {
+    themeToggle.textContent = currentTheme === 'dark' ? '☀️' : '🌙';
+}
+
+function setupEventListeners() {
+    // Mobile menu toggle
+    mobileMenu?.addEventListener('click', toggleMobileMenu);
+    
+    // Theme toggle
+    themeToggle?.addEventListener('click', toggleTheme);
+    
+    // Scroll events
+    window.addEventListener('scroll', handleScroll);
+    
+    // Navigation links smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', handleSmoothScroll);
+    });
+    
+    // Contact form
+    contactForm?.addEventListener('submit', handleContactForm);
+    
+    // Skills filter
+    document.querySelectorAll('.skills-section .filter-btn').forEach(btn => {
+        btn.addEventListener('click', handleSkillsFilter);
+    });
+    
+    // Projects filter
+    document.querySelectorAll('.projects-filter .filter-btn').forEach(btn => {
+        btn.addEventListener('click', handleProjectsFilter);
+    });
+    
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', function(e) {
+        if (isMenuOpen && !navMenu.contains(e.target) && !mobileMenu.contains(e.target)) {
+            closeMobileMenu();
+        }
+    });
+    
+    // Handle window resize
+    window.addEventListener('resize', function() {
+        if (window.innerWidth > 768 && isMenuOpen) {
+            closeMobileMenu();
+        }
+    });
+}
+
+function toggleMobileMenu() {
+    isMenuOpen = !isMenuOpen;
+    navMenu.classList.toggle('active');
+    mobileMenu.classList.toggle('active');
+}
+
+function closeMobileMenu() {
+    isMenuOpen = false;
+    navMenu.classList.remove('active');
+    mobileMenu.classList.remove('active');
+}
+
+function toggleTheme() {
+    currentTheme = currentTheme === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-color-scheme', currentTheme);
+    localStorage.setItem('theme', currentTheme);
+    updateThemeToggle();
+}
+
+function handleScroll() {
+    // Navbar scroll effect
+    if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+    } else {
+        navbar.classList.remove('scrolled');
+    }
+    
+    // Update active navigation link
+    updateActiveNavLink();
+}
+
+function updateActiveNavLink() {
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-link');
+    
+    let current = '';
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if (window.scrollY >= sectionTop - 200) {
+            current = section.getAttribute('id');
+        }
+    });
+    
+    navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === `#${current}`) {
+            link.classList.add('active');
+        }
+    });
+}
+
+function handleSmoothScroll(e) {
+    e.preventDefault();
+    const target = document.querySelector(e.target.getAttribute('href'));
+    if (target) {
+        const offsetTop = target.offsetTop - 70; // Account for fixed navbar
+        window.scrollTo({
+            top: offsetTop,
+            behavior: 'smooth'
+        });
+    }
+    
+    // Close mobile menu if open
+    if (isMenuOpen) {
+        closeMobileMenu();
+    }
+}
+
+function handleContactForm(e) {
+    e.preventDefault();
+    
+    const formData = new FormData(e.target);
+    const data = Object.fromEntries(formData);
+    
+    // Basic validation
+    if (!data.name || !data.email || !data.message) {
+        showNotification('Please fill in all required fields.', 'error');
+        return;
+    }
+    
+    if (!isValidEmail(data.email)) {
+        showNotification('Please enter a valid email address.', 'error');
+        return;
+    }
+    
+    // Simulate form submission
+    showNotification('Thank you! Your message has been sent successfully.', 'success');
+    e.target.reset();
+}
+
+function isValidEmail(email) {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+}
+
+function showNotification(message, type) {
+    // Create notification element
+    const notification = document.createElement('div');
+    notification.className = `notification notification--${type}`;
+    notification.innerHTML = `
+        <div class="notification-content">
+            <span>${message}</span>
+            <button class="notification-close" onclick="this.parentElement.parentElement.remove()">×</button>
         </div>
-    </section>
+    `;
+    
+    // Add styles for notification
+    notification.style.cssText = `
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 10000;
+        padding: 16px 20px;
+        border-radius: 8px;
+        color: white;
+        font-weight: 500;
+        max-width: 400px;
+        animation: slideIn 0.3s ease-out;
+        background: ${type === 'success' ? 'var(--color-success)' : 'var(--color-error)'};
+    `;
+    
+    document.body.appendChild(notification);
+    
+    // Auto remove after 5 seconds
+    setTimeout(() => {
+        if (notification.parentElement) {
+            notification.remove();
+        }
+    }, 5000);
+}
+
+function populateSkills() {
+    if (!skillsGrid) return;
+    
+    skillsGrid.innerHTML = '';
+    
+    portfolioData.skills.forEach(skill => {
+        const skillElement = document.createElement('div');
+        skillElement.className = `skill-item skill-${skill.category}`;
+        skillElement.innerHTML = `
+            <div class="skill-header">
+                <span class="skill-name">${skill.name}</span>
+                <span class="skill-level">${skill.level}%</span>
+            </div>
+            <div class="skill-progress">
+                <div class="skill-progress-bar" data-level="${skill.level}"></div>
+            </div>
+        `;
+        
+        skillsGrid.appendChild(skillElement);
+    });
+}
+
+function populateProjects() {
+    if (!projectsGrid) return;
+    
+    projectsGrid.innerHTML = '';
+    
+    portfolioData.projects.forEach(project => {
+        const projectElement = document.createElement('div');
+        projectElement.className = `project-card project-${project.category} ${project.featured ? 'featured' : ''}`;
+        projectElement.innerHTML = `
+            <img src="${project.image}" alt="${project.title}" class="project-image" loading="lazy">
+            <div class="project-content">
+                <h3 class="project-title">${project.title}</h3>
+                <p class="project-description">${project.description}</p>
+                <div class="project-tech">
+                    ${project.technologies.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
+                </div>
+                <div class="project-links">
+                    <a href="${project.liveDemo}" class="project-link project-link--primary" target="_blank">Live Demo</a>
+                    <a href="${project.github}" class="project-link project-link--secondary" target="_blank">GitHub</a>
+                </div>
+            </div>
+        `;
+        
+        projectsGrid.appendChild(projectElement);
+    });
+}
+
+function handleSkillsFilter(e) {
+    const filter = e.target.getAttribute('data-filter');
+    const skillItems = document.querySelectorAll('.skill-item');
+    const filterBtns = document.querySelectorAll('.skills-section .filter-btn');
+    
+    // Update active button
+    filterBtns.forEach(btn => btn.classList.remove('active'));
+    e.target.classList.add('active');
+    
+    // Filter skills
+    skillItems.forEach(item => {
+        if (filter === 'all' || item.classList.contains(`skill-${filter}`)) {
+            item.style.display = 'block';
+            item.style.animation = 'fadeIn 0.3s ease-out';
+        } else {
+            item.style.display = 'none';
+        }
+    });
+}
+
+function handleProjectsFilter(e) {
+    const filter = e.target.getAttribute('data-filter');
+    const projectItems = document.querySelectorAll('.project-card');
+    const filterBtns = document.querySelectorAll('.projects-filter .filter-btn');
+    
+    // Update active button
+    filterBtns.forEach(btn => btn.classList.remove('active'));
+    e.target.classList.add('active');
+    
+    // Filter projects
+    projectItems.forEach(item => {
+        let shouldShow = false;
+        
+        if (filter === 'all') {
+            shouldShow = true;
+        } else if (filter === 'featured' && item.classList.contains('featured')) {
+            shouldShow = true;
+        } else if (item.classList.contains(`project-${filter}`)) {
+            shouldShow = true;
+        }
+        
+        if (shouldShow) {
+            item.style.display = 'block';
+            item.style.animation = 'fadeIn 0.3s ease-out';
+        } else {
+            item.style.display = 'none';
+        }
+    });
+}
+
+function setupIntersectionObserver() {
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+    
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('animate-in');
+                
+                // Animate skill progress bars
+                if (entry.target.classList.contains('skill-item')) {
+                    const progressBar = entry.target.querySelector('.skill-progress-bar');
+                    const level = progressBar.getAttribute('data-level');
+                    setTimeout(() => {
+                        progressBar.style.width = level + '%';
+                    }, 200);
+                }
+            }
+        });
+    }, observerOptions);
+    
+    // Observe elements for animation
+    document.querySelectorAll('.skill-item, .project-card, .timeline-item, .about-text').forEach(el => {
+        observer.observe(el);
+    });
+}
+
+// Add CSS animations
+const style = document.createElement('style');
+style.textContent = `
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    
+    @keyframes slideIn {
+        from { transform: translateX(100%); opacity: 0; }
+        to { transform: translateX(0); opacity: 1; }
+    }
+    
+    .animate-in {
+        animation: fadeIn 0.6s ease-out;
+    }
+    
+    .notification-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+    }
+    
+    .notification-close {
+        background: none;
+        border: none;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+        padding: 0;
+        width: 20px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .notification-close:hover {
+        opacity: 0.8;
+    }
+`;
+document.head.appendChild(style);
+
+// Add typing effect to hero title
+function typeWriter(element, text, speed = 100) {
+    let i = 0;
+    element.innerHTML = '';
+    
+    function type() {
+        if (i < text.length) {
+            element.innerHTML += text.charAt(i);
+            i++;
+            setTimeout(type, speed);
+        }
+    }
+    
+    type();
+}
+
+// Initialize typing effect when page loads
+window.addEventListener('load', function() {
+    const heroTitle = document.querySelector('.hero-title .highlight');
+    if (heroTitle) {
+        const originalText = heroTitle.textContent;
+        setTimeout(() => {
+            typeWriter(heroTitle, originalText, 150);
+        }, 1500);
+    }
+});
+
+// Add smooth reveal animations for sections
+function revealOnScroll() {
+    const reveals = document.querySelectorAll('.section-title, .about-text, .timeline-item, .project-card, .skill-item');
+    
+    reveals.forEach(element => {
+        const windowHeight = window.innerHeight;
+        const elementTop = element.getBoundingClientRect().top;
+        const elementVisible = 150;
+        
+        if (elementTop < windowHeight - elementVisible) {
+            element.classList.add('animate-in');
+        }
+    });
+}
+
+window.addEventListener('scroll', revealOnScroll);
+
+// Performance optimization: Throttle scroll events
+function throttle(func, wait) {
+    let timeout;
+    return function executedFunction(...args) {
+        const later = () => {
+            clearTimeout(timeout);
+            func(...args);
+        };
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+    };
+}
+
+// Apply throttling to scroll events
+window.removeEventListener('scroll', handleScroll);
+window.removeEventListener('scroll', revealOnScroll);
+window.addEventListener('scroll', throttle(handleScroll, 10));
+window.addEventListener('scroll', throttle(revealOnScroll, 20));
+
+// Preload images for better performance
+function preloadImages() {
+    portfolioData.projects.forEach(project => {
+        const img = new Image();
+        img.src = project.image;
+    });
+}
+
+// Initialize image preloading
+preloadImages();
