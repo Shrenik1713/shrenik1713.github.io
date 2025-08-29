@@ -1,44 +1,45 @@
 // Portfolio Data
 const portfolioData = {
   "personalInfo": {
-    "name": "Your Name",
+    "name": "Shrenik Balaji Sirimilla",
     "tagline": "Computer Science Student",
-    "subtitle": "AI & ML Enthusiast | Full-Stack Developer",
+    "subtitle": "AI & ML Enthusiast",
     "bio": "Passionate Computer Science student graduating in 2025, specializing in Artificial Intelligence and Machine Learning. Experienced in building scalable web applications and exploring cutting-edge technologies. Always eager to learn, collaborate, and contribute to meaningful projects that solve real-world problems.",
-    "email": "your.email@example.com",
-    "phone": "+1 (555) 123-4567",
-    "location": "Your City, Country"
+    "email": "work.shrenikbalaji@gmail.com",
+    "phone": "+91 8919627590",
+    "location": "Hyderabad, Telangana, India"
   },
   "skills": [
-    { "name": "Python", "level": 90, "category": "programming" },
-    { "name": "JavaScript", "level": 85, "category": "programming" },
-    { "name": "Java", "level": 80, "category": "programming" },
-    { "name": "C++", "level": 75, "category": "programming" },
-    { "name": "React.js", "level": 85, "category": "frontend" },
-    { "name": "Angular", "level": 80, "category": "frontend" },
-    { "name": "HTML/CSS", "level": 90, "category": "frontend" },
-    { "name": "Node.js", "level": 80, "category": "backend" },
-    { "name": "Express.js", "level": 75, "category": "backend" },
-    { "name": "MongoDB", "level": 70, "category": "database" },
-    { "name": "MySQL", "level": 75, "category": "database" },
-    { "name": "Git/GitHub", "level": 85, "category": "tools" },
-    { "name": "Machine Learning", "level": 80, "category": "ai" },
-    { "name": "TensorFlow", "level": 75, "category": "ai" },
-    { "name": "Data Analysis", "level": 80, "category": "ai" }
+    { "name": "Python", "category": "programming" },
+    { "name": "JavaScript", "category": "programming" },
+    { "name": "Java", "category": "programming" },
+    { "name": "C++", "category": "programming" },
+    { "name": "React.js", "category": "frontend" },
+    { "name": "Angular", "category": "frontend" },
+    { "name": "HTML/CSS", "category": "frontend" },
+    { "name": "Node.js", "category": "backend" },
+    { "name": "Express.js", "category": "backend" },
+    { "name": "MongoDB", "category": "database" },
+    { "name": "MySQL", "category": "database" },
+    { "name": "Git/GitHub", "category": "tools" },
+    { "name": "Machine Learning", "category": "ai" },
+    { "name": "TensorFlow", "category": "ai" },
+    { "name": "Data Analysis", "category": "ai" }
+    // { "name": "Data Analysis", "level": 80, "category": "ai" }
   ],
   "projects": [
+    // {
+    //   "title": "AI-Powered Task Manager",
+    //   "description": "Intelligent task management application using machine learning to predict task priorities and optimize scheduling. Features smart categorization and deadline prediction.",
+    //   "technologies": ["Python", "TensorFlow", "React", "Node.js", "MongoDB"],
+    //   "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
+    //   "liveDemo": "#",
+    //   "github": "#",
+    //   "featured": true,
+    //   "category": "ai"
+    // },
     {
-      "title": "AI-Powered Task Manager",
-      "description": "Intelligent task management application using machine learning to predict task priorities and optimize scheduling. Features smart categorization and deadline prediction.",
-      "technologies": ["Python", "TensorFlow", "React", "Node.js", "MongoDB"],
-      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-      "liveDemo": "#",
-      "github": "#",
-      "featured": true,
-      "category": "ai"
-    },
-    {
-      "title": "E-Commerce Platform",
+      "title": "Product Recommendation System",
       "description": "Full-stack e-commerce solution with user authentication, payment integration, and admin dashboard. Responsive design with modern UI/UX principles.",
       "technologies": ["React", "Node.js", "Express", "MySQL", "Stripe API"],
       "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
@@ -48,7 +49,7 @@ const portfolioData = {
       "category": "web"
     },
     {
-      "title": "Social Media Analytics",
+      "title": "Optical Charecter Recognition",
       "description": "Data visualization dashboard for social media metrics with real-time updates and predictive analytics for engagement optimization.",
       "technologies": ["Python", "Flask", "D3.js", "PostgreSQL", "Redis"],
       "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
@@ -58,7 +59,7 @@ const portfolioData = {
       "category": "ai"
     },
     {
-      "title": "Mobile Weather App",
+      "title": "AI Chatbot for travel iteneary",
       "description": "Cross-platform mobile application providing detailed weather forecasts with location-based services and interactive maps.",
       "technologies": ["React Native", "JavaScript", "Weather API", "Maps API"],
       "image": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
@@ -67,26 +68,26 @@ const portfolioData = {
       "featured": false,
       "category": "web"
     },
-    {
-      "title": "Blockchain Voting System",
-      "description": "Secure digital voting platform using blockchain technology to ensure transparency and prevent fraud in electoral processes.",
-      "technologies": ["Solidity", "Web3.js", "React", "Ethereum", "IPFS"],
-      "image": "https://images.unsplash.com/photo-1559526324-593bc073d938?w=600&h=400&fit=crop",
-      "liveDemo": "#",
-      "github": "#",
-      "featured": true,
-      "category": "web"
-    },
-    {
-      "title": "IoT Smart Home System",
-      "description": "Integrated IoT solution for home automation with sensor monitoring, mobile app control, and energy optimization features.",
-      "technologies": ["Arduino", "Raspberry Pi", "Python", "React Native", "MQTT"],
-      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=600&h=400&fit=crop",
-      "liveDemo": "#",
-      "github": "#",
-      "featured": false,
-      "category": "ai"
-    }
+    // {
+    //   "title": "Blockchain Voting System",
+    //   "description": "Secure digital voting platform using blockchain technology to ensure transparency and prevent fraud in electoral processes.",
+    //   "technologies": ["Solidity", "Web3.js", "React", "Ethereum", "IPFS"],
+    //   "image": "https://images.unsplash.com/photo-1559526324-593bc073d938?w=600&h=400&fit=crop",
+    //   "liveDemo": "#",
+    //   "github": "#",
+    //   "featured": true,
+    //   "category": "web"
+    // },
+    // {
+    //   "title": "IoT Smart Home System",
+    //   "description": "Integrated IoT solution for home automation with sensor monitoring, mobile app control, and energy optimization features.",
+    //   "technologies": ["Arduino", "Raspberry Pi", "Python", "React Native", "MQTT"],
+    //   "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=600&h=400&fit=crop",
+    //   "liveDemo": "#",
+    //   "github": "#",
+    //   "featured": false,
+    //   "category": "ai"
+    // }
   ]
 };
 
