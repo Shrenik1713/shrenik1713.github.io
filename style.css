@@ -1458,9 +1458,9 @@ section {
 
 .footer-content {
   display: flex;
-  justify-content: space-between;
+  justify-content:flex-end;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: var(--space-16);
 }
 
