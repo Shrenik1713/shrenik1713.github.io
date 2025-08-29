@@ -1378,9 +1378,8 @@ section {
 
 /* Contact Section */
 #contact {
-  background: #181e21;
-  color: #f0f4f8;
-  padding: 64px 0 32px 0;
+ background: var(--color-background);
+ padding: 64px 0 32px 0;
 }
 
 .contact-container {
@@ -1395,7 +1394,7 @@ section {
 }
 
 .contact-info, .contact-form {
-  background: #23272a;
+  background: var(--color-background);
   border-radius: 16px;
   box-shadow: 0 2px 24px rgba(20,34,60,0.14);
   padding: 32px;
@@ -1436,8 +1435,7 @@ section {
 }
 
 .contact-social a:hover {
-  color: #fff;
-  background: #19c9e6;
+ background: var(--color-background);
 }
 
 .contact-form label {
@@ -1463,7 +1461,7 @@ section {
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border-color: #19c9e6;
+  background: var(--color-background);
   outline: none;
 }
 
