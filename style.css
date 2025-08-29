@@ -1427,7 +1427,7 @@ section {
   display: inline-block;
   margin-right: 14px;
   font-size: 1.8em;
-  color: #19c9e6;
+  background: var(--color-background);
   background: #181e21;
   padding: 6px 10px;
   border-radius: 50%;
@@ -1453,8 +1453,8 @@ section {
   margin-bottom: 10px;
   border-radius: 4px;
   border: 1px solid #2c3238;
-  background: #101417;
-  color: #e3f6fb;
+  background: var(--color-background);
+  color:var(--color-text-secondary);
   font-size: 1em;
   transition: border-color 0.2s;
 }
