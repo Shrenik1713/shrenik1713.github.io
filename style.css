@@ -1460,10 +1460,12 @@ section {
 
 .footer-content {
   display: flex;
-  justify-content:flex-end;
+  justify-content:center;
   align-items: center;
   flex-wrap: nowrap;
   gap: var(--space-16);
+  max-height: 16px;
+  max-width: 100%;
 }
 
 .footer-content p {
