@@ -1454,7 +1454,8 @@ section {
   background: var(--color-surface);
   border-top: 1px solid var(--color-border);
   padding: var(--space-24) 0;
-  max-height: 20px;
+  max-height: 16px;
+  max-width: 100%;
 }
 
 .footer-content {
