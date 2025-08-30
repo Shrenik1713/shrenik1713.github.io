@@ -806,7 +806,7 @@ html {
 .nav-container {
   max-width: var(--container-xl);
   margin: 0 auto;
-  display: flex-end;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: var(--space-16) var(--space-20);
