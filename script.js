@@ -10,21 +10,27 @@ const portfolioData = {
     "location": "Hyderabad, Telangana, India"
   },
   "skills": [
-    { "name": "Python", "category": "programming" },
-    { "name": "JavaScript", "category": "programming" },
-    { "name": "Java", "category": "programming" },
-    { "name": "C++", "category": "programming" },
-    { "name": "React.js", "category": "frontend" },
-    { "name": "Angular", "category": "frontend" },
-    { "name": "HTML/CSS", "category": "frontend" },
-    { "name": "Node.js", "category": "backend" },
-    { "name": "Express.js", "category": "backend" },
-    { "name": "MongoDB", "category": "database" },
-    { "name": "MySQL", "category": "database" },
-    { "name": "Git/GitHub", "category": "tools" },
-    { "name": "Machine Learning", "category": "ai" },
-    { "name": "TensorFlow", "category": "ai" },
-    { "name": "Data Analysis", "category": "ai" }
+        {"name": "JavaScript", "category": "programming", "icon": "fab fa-js-square"},
+    {"name": "Python", "category": "programming", "icon": "fab fa-python"},
+    {"name": "Java", "category": "programming", "icon": "fab fa-java"},
+    {"name": "C++", "category": "programming", "icon": "fas fa-code"},
+    {"name": "TypeScript", "category": "programming", "icon": "fas fa-file-code"},
+    {"name": "React", "category": "frontend", "icon": "fab fa-react"},
+    {"name": "Vue.js", "category": "frontend", "icon": "fab fa-vuejs"},
+    {"name": "Angular", "category": "frontend", "icon": "fab fa-angular"},
+    {"name": "HTML5", "category": "frontend", "icon": "fab fa-html5"},
+    {"name": "CSS3", "category": "frontend", "icon": "fab fa-css3-alt"},
+    {"name": "Sass", "category": "frontend", "icon": "fab fa-sass"},
+    {"name": "Node.js", "category": "backend", "icon": "fab fa-node-js"},
+    {"name": "Express", "category": "backend", "icon": "fas fa-server"},
+    {"name": "Django", "category": "backend", "icon": "fas fa-database"},
+    {"name": "MongoDB", "category": "backend", "icon": "fas fa-leaf"},
+    {"name": "PostgreSQL", "category": "backend", "icon": "fas fa-database"},
+    {"name": "TensorFlow", "category": "ai", "icon": "fas fa-brain"},
+    {"name": "PyTorch", "category": "ai", "icon": "fas fa-fire"},
+    {"name": "scikit-learn", "category": "ai", "icon": "fas fa-chart-line"},
+    {"name": "OpenCV", "category": "ai", "icon": "fas fa-eye"}
+];
     // { "name": "Data Analysis", "level": 80, "category": "ai" }
   ],
   "projects": [
