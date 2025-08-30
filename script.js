@@ -334,6 +334,57 @@ function showNotification(message, type) {
     }, 5000);
 }
 
+// Create skill card HTML
+function createSkillCard(skill) {
+    return `
+        <div class="skill-card" data-category="${skill.category}">
+            <i class="${skill.icon} skill-icon"></i>
+            <h4 class="skill-name">${skill.name}</h4>
+        </div>
+    `;
+}
+
+// Render all skills
+function renderSkills() {
+    const container = document.getElementById('skills-container');
+    container.innerHTML = skillsData.map(skill => createSkillCard(skill)).join('');
+}
+
+// Filter skills
+function filterSkills(category) {
+    const cards = document.querySelectorAll('.skill-card');
+    
+    cards.forEach(card => {
+        if (category === 'all' || card.dataset.category === category) {
+            card.classList.remove('hidden');
+        } else {
+            card.classList.add('hidden');
+        }
+    });
+}
+
+// Handle filter button clicks
+function handleFilterClick(e) {
+    if (e.target.classList.contains('filter-btn')) {
+        // Remove active class from all buttons
+        document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+        
+        // Add active class to clicked button
+        e.target.classList.add('active');
+        
+        // Filter skills
+        filterSkills(e.target.dataset.filter);
+    }
+}
+
+// Initialize
+document.addEventListener('DOMContentLoaded', () => {
+    renderSkills();
+    
+    // Add event listener to filter container
+    document.querySelector('.skills-filter').addEventListener('click', handleFilterClick);
+});
+
 function populateSkills() {
     if (!skillsGrid) return;
     
